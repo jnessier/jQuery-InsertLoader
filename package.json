@@ -1,8 +1,8 @@
 {
-    "name": "jQuery_InsertLoader",
+    "name": "jQuery InsertLoader",
     "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "Jonathan",
+    "keywords": ["loader", "load", "script", "javascript", "css", "stylesheet"],
+    "author": "Jonathan Nessier, Neoflow",
     "contributors": [],
     "dependencies": {}
 }
