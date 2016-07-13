@@ -26,6 +26,7 @@ var InsertLoader = (function () {
                     $head = $('head');
 
             switch (extension) {
+                case 'php':
                 case 'js':
                     $head.append($('<script>', {
                         src: finalUrl
@@ -50,11 +51,11 @@ var InsertLoader = (function () {
     var loadResources = function (urls, path) {
         if ($.isArray(urls)) {
             var result = true;
-            $.each(urls, $.proxy(function (i, url) {
+            $.each(urls, function (i, url) {
                 if (!loadResource(url, path)) {
                     result = false;
                 }
-            }, this));
+            });
             return result;
         }
         throw new Error('Multiple URLs have to be in an array');
