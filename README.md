@@ -1,7 +1,5 @@
 # jQuery InsertLoader
-## Introduction
-jQuery InsertLoader is a helper function for loading JavaScript and Stylesheets
-on the fly.
+jQuery plugin as helper function to support ansynchron loading of JavaScript and Stylesheets files on the fly.
 
 ## Examples
 ```javascript
@@ -22,6 +20,9 @@ var moduleFiles = [
 $.insert(moduleFiles, 'https://foo.com/bar/');
 ```
 
-## Author
-Jonathan Nessier, [Neoflow](https://www.neoflow.ch)
-Copyright © 2016 Jonathan Nessier, [Neoflow](https://www.neoflow.ch) | The MIT License (MIT)
+## Author(s)
+
+* Jonathan Nessier, [Neoflow](https://www.neoflow.ch)
+
+## License
+MIT
