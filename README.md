@@ -1,5 +1,5 @@
 # jQuery InsertLoader
-jQuery plugin as helper function to support ansynchron loading of JavaScript and Stylesheets files on the fly.
+jQuery plugin as helper function to support asynchron loading of JavaScript and Stylesheets files on the fly.
 
 ## Examples
 ```javascript
