@@ -1,3 +1,8 @@
+# This project is no longer maintained.
+Please use other solutions for asynchron loading of JavaScript and Stylesheets files on the fly
+
+------------------------------------------------------------
+
 # jQuery InsertLoader
 jQuery plugin as helper function to support asynchron loading of JavaScript and Stylesheets files on the fly.
 
